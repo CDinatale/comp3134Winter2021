@@ -1,0 +1,13 @@
+traceroute to www.facebook.com (157.240.26.35), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.6.91 (10.78.6.91)  1.297 ms 10.78.4.0 (10.78.4.0)  1.116 ms 10.78.4.2 (10.78.4.2)  1.216 ms
+ 3  138.197.249.78 (138.197.249.78)  1.158 ms  1.023 ms 138.197.249.82 (138.197.249.82)  1.233 ms
+ 4  toro-b1-link.telia.net (62.115.9.209)  1.882 ms toro-b1-link.telia.net (62.115.55.29)  6.784 ms toro-b1-link.telia.net (62.115.9.209)  6.767 ms
+ 5  toro-b3-link.ip.twelve99.net (62.115.116.180)  1.395 ms  1.328 ms  1.318 ms
+ 6  toro-b2-link.ip.twelve99.net (62.115.117.229)  1.324 ms  0.870 ms  0.806 ms
+ 7  chi-b23-link.ip.twelve99.net (62.115.118.100)  11.169 ms  11.124 ms  10.749 ms
+ 8  mini-b2-link.ip.twelve99.net (62.115.123.242)  19.751 ms  19.689 ms kanc-b2-link.ip.twelve99.net (213.155.130.177)  23.295 ms
+ 9  facebook-ic-339883-mini-b1.c.telia.net (62.115.167.217)  19.843 ms facebook-ic-339882-mini-b1.c.telia.net (62.115.167.215)  19.949 ms facebook-ic-339883-mini-b1.c.telia.net (62.115.167.217)  19.699 ms
+10  po102.psw01.msp1.tfbnw.net (129.134.37.199)  19.808 ms po101.psw03.msp1.tfbnw.net (157.240.44.129)  19.849 ms po101.psw04.msp1.tfbnw.net (129.134.37.197)  19.741 ms
+11  173.252.67.55 (173.252.67.55)  19.928 ms 173.252.67.111 (173.252.67.111)  19.438 ms 173.252.67.61 (173.252.67.61)  19.976 ms
+12  edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35)  19.806 ms  19.481 ms 173.252.67.5 (173.252.67.5)  29.166 ms

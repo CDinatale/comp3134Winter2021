@@ -1,0 +1,67 @@
+root@100645103:~# nmap www.wikipedia.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-27 02:03 UTC
+Nmap scan report for www.wikipedia.com (208.80.154.232)
+Host is up (0.016s latency).
+Other addresses for www.wikipedia.com (not scanned): 2620:0:861:ed1a::9
+rDNS record for 208.80.154.232: ncredir-lb.eqiad.wikimedia.org
+Not shown: 993 closed ports
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+80/tcp   open     http
+179/tcp  filtered bgp
+443/tcp  open     https
+5666/tcp filtered nrpe
+9090/tcp filtered zeus-admin
+9100/tcp filtered jetdirect
+
+Nmap done: 1 IP address (1 host up) scanned in 12.57 seconds
+
+------------------------------------------------------------------------
+
+root@100645103:~# nmap -p 80 www.wikipedia.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-27 02:06 UTC
+Nmap scan report for www.wikipedia.com (208.80.154.232)
+Host is up (0.017s latency).
+Other addresses for www.wikipedia.com (not scanned): 2620:0:861:ed1a::9
+rDNS record for 208.80.154.232: ncredir-lb.eqiad.wikimedia.org
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 11.19 seconds
+
+------------------------------------------------------------------------
+
+root@100645103:~# nmap -p 22-443 www.wikipedia.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-27 02:08 UTC
+Nmap scan report for www.wikipedia.com (208.80.154.232)
+Host is up (0.016s latency).
+Other addresses for www.wikipedia.com (not scanned): 2620:0:861:ed1a::9
+rDNS record for 208.80.154.232: ncredir-lb.eqiad.wikimedia.org
+Not shown: 418 closed ports
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+80/tcp  open     http
+179/tcp filtered bgp
+443/tcp open     https
+
+Nmap done: 1 IP address (1 host up) scanned in 12.40 seconds
+
+------------------------------------------------------------------------
+
+root@100645103:~# nmap -F www.wikipedia.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-27 02:09 UTC
+Nmap scan report for www.wikipedia.com (208.80.154.232)
+Host is up (0.017s latency).
+Other addresses for www.wikipedia.com (not scanned): 2620:0:861:ed1a::9
+rDNS record for 208.80.154.232: ncredir-lb.eqiad.wikimedia.org
+Not shown: 94 closed ports
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+80/tcp   open     http
+179/tcp  filtered bgp
+443/tcp  open     https
+5666/tcp filtered nrpe
+9100/tcp filtered jetdirect
+
+Nmap done: 1 IP address (1 host up) scanned in 12.39 seconds

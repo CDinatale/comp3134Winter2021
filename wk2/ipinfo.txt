@@ -1,0 +1,38 @@
+Domain Name: stackoverflow.com
+
+IP Address: 151.101.65.69
+
+Geolocation: US (United States), CA, California, 94107 San Francisco
+
+---------------------------------------------------------------------
+
+Domain Name: healthline.com
+
+IP Address: 13.225.65.49
+
+Geolocation: US (United States), CT, Connecticut, 06850 Norwalk
+
+---------------------------------------------------------------------
+
+Domain Name: cbc.ca
+
+IP Address: 23.14.157.242
+
+Geolocation: US (United States), MA, Massachusetts, 02142 Cambridge
+
+---------------------------------------------------------------------
+
+Domain Name: cp24.com
+
+IP Address: 199.85.71.129
+
+Geolocation: CA (Canada), ON, Ontario, M5V Toronto
+
+---------------------------------------------------------------------
+
+Domain Name: reddit.com
+
+IP Address: 151.101.193.140
+
+Geolocation: US (United States), CA, California, 94107 San Francisco
+

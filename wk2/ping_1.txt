@@ -1,0 +1,32 @@
+root@100645103:~# ping www.facebook.com
+PING star-mini.c10r.facebook.com (157.240.26.35) 56(84) bytes of data.
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=1 ttl=57 time=20.4 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=2 ttl=57 time=19.5 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=3 ttl=57 time=19.5 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=4 ttl=57 time=19.5 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=5 ttl=57 time=19.5 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=6 ttl=57 time=19.5 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=7 ttl=57 time=19.5 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=8 ttl=57 time=19.5 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=9 ttl=57 time=19.4 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=10 ttl=57 time=19.5 ms
+^C
+--- star-mini.c10r.facebook.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 19.409/19.577/20.392/0.273 ms
+root@100645103:~# ping www.facebook.com -w 10
+PING star-mini.c10r.facebook.com (157.240.26.35) 56(84) bytes of data.
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=1 ttl=57 time=20.4 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=2 ttl=57 time=19.5 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=3 ttl=57 time=19.5 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=4 ttl=57 time=19.5 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=5 ttl=57 time=19.7 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=6 ttl=57 time=19.6 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=7 ttl=57 time=19.5 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=8 ttl=57 time=19.5 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=9 ttl=57 time=19.5 ms
+64 bytes from edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35): icmp_seq=10 ttl=57 time=19.5 ms
+
+--- star-mini.c10r.facebook.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 19.451/19.616/20.394/0.265 ms
