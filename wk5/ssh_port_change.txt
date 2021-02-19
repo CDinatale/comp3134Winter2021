@@ -1,0 +1,3 @@
+service sshd restart
+
+ssh user@68.183.198.173 -p 2222
