@@ -1,0 +1,1 @@
+To mitigate the problem, I will use php comments instead of html comments.

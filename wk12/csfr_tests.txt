@@ -1,0 +1,1 @@
+Unlike the earlier exercise where the csfr.html page was able to pass through the login form on the csfr.php page, the csfr_form.php's confirmation variable ensures that the request is coming from a valid session and that it does not override the login request on the csfr_action.php page.

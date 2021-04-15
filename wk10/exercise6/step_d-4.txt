@@ -1,0 +1,2 @@
+I see an array containing a list of files that could potentially contain sensitive and confidential information.
+A hacker seeing or changing the content of these files could cause harm to the system. 

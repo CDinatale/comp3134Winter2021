@@ -1,0 +1,4 @@
+1. When I type a valid English word, the website returns the dictionary definition of the word entered. It also displays the word in the URL.
+2. When I type an invalid English word, the website return a message stating that no results were found for the word entered and offers suggestions of other valid english words that are similar to the word entered. In the URL it displays a mispelling parameter with the term entered.
+3. When I type the script in the form, the website return article suggestions.
+4. Same results as question # 3.

@@ -1,0 +1,3 @@
+I see an error that states that the command scandir(hello) failed to open a file named "hello" as it does not exist in directory_traversal_part1.php.
+
+The sensitive information given by this page is the directory structure and location of the php file.

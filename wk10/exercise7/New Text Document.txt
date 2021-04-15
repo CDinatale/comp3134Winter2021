@@ -1,0 +1,2 @@
+The strip_tags function will remove the HTML, XML AND PHP tags from the user input.
+Displaying the html entity value of the user input will instead encode the input into html-friendly representations so that the usr input can be displayed as is.

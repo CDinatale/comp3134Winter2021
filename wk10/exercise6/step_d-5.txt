@@ -1,0 +1,2 @@
+I see an array containing hidden dot files and an html file. These files may contain sensitive information and seeing or changing the content of these files 
+could cause harm to the system. 
